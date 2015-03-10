@@ -1,18 +1,30 @@
 {
   "name": "molecules",
   "version": "0.0.1",
-  "description": "molecules =========",
+  "description": "Break large streaming archives apart into their component files",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true,
   "author": "Gregori Kanatzidis",
   "dependencies": {
-    "async": "^0.9.0",
     "bl": "^0.9.1",
     "mkdirp": "^0.5.0",
     "readable-stream": "^1.0.31",
     "underscore": "^1.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kanatzidis/molecules"
+  },
+  "keywords": [
+    "stream",
+    "streaming",
+    "unzip"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kanatzidis/molecules/issues"
+  },
+  "homepage": "https://github.com/kanatzidis/molecules"
 }
