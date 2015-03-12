@@ -34,8 +34,6 @@ var mkdirp = require('mkdirp');
 var path = require('path');
 
 fs.createReadStream('./archive.zip').pipe(Unzip()).on('entry', function(entry, header) {
-  console.log(header.filename);
-  console.log(JSON.stringify(header));
 
   if(!header.folder) {
     console.log('Writing ' + header.filename);

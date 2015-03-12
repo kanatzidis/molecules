@@ -1,6 +1,6 @@
 {
   "name": "molecules",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Break large streaming archives apart into their component files",
   "main": "index.js",
   "scripts": {
