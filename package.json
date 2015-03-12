@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/kanatzidis/molecules/issues"
   },
-  "homepage": "https://github.com/kanatzidis/molecules"
+  "homepage": "https://github.com/kanatzidis/molecules",
+  "devDependencies": {
+    "mkdirp": "^0.5.0"
+  }
 }
